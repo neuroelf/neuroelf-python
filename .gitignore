@@ -1,0 +1,8 @@
+# folders not to include in root
+/build/
+/dist/
+/neuroelf.egg-info/
+
+# folders not to include anywhere
+__pycache__/
+.ipynb_checkpoints/
