@@ -1,0 +1,6 @@
+dash==1.17.0
+dash-canvas==0.1.0
+flask-bootstrap==3.3.7.1
+numpy==1.19.4
+plotly==4.12.0
+scikit-image==0.17.2
