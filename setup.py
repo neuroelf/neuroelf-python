@@ -20,6 +20,7 @@ setuptools.setup(
     url="https://github.com/neuroelf/neuroelf-python",
     packages=setuptools.find_packages(),
     package_dir={'neuroelf': 'neuroelf'},
+    include_package_data=True,
     python_requires=">=3.6",
     install_requires=requires,
     license='BSD',

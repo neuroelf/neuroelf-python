@@ -9,7 +9,16 @@ https://github.com/neuroelf/neuroelf-matlab
 :license: BSD, see LICENSE for details.
 """
 
-from .bffparse import bffparse
+from . import io
 
-name = 'neuroelf'
+from . import app
+
+_name_ = 'neuroelf'
 __version__ = '0.0.1'
+
+__all__ = [
+    '__version__',
+    '_name_',
+    'app',
+    'io',
+]
